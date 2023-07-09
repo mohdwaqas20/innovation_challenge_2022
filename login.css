@@ -6,7 +6,7 @@
 .hero{
         height: 100%;
         width: 100%;
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.6)), url(../Innovation-Project-\(CA&G\)/w8.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.6)), url('https://mohdwaqas20.github.io/innovation_challenge_2022/login.jpg');
         background-position: center;
         background-size: cover;
         position: absolute;
