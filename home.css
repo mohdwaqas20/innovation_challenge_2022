@@ -71,7 +71,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.7) url('../PIC/w1.jpg');
+    background: rgba(0, 0, 0, 0.7) url('https://mohdwaqas20.github.io/innovation_challenge_2022/home_1.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -221,7 +221,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .bg {
-    background: rgba(0, 0, 0, 0.7) url('../PIC/w3.jpg');
+    background: rgba(0, 0, 0, 0.7) url('https://mohdwaqas20.github.io/innovation_challenge_2022/home_2.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
