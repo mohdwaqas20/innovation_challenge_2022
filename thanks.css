@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.logo {
+    
+
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    
+    width: 30%;
+    border: 10px white;
+    border-radius: 100%;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 70%;
+    background-color: black;
+    display: flex;
+    align-items:center;
+   
+}
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: aqua;
+
+}
+
+
+.rightNav {
+    background-color: black;
+    width: 30%;
+    text-align: center;
+    padding: 15px 2px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px aqua;
+    border-radius: 9px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu' sans-serif;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 13px;
+    border-radius: 8px;
+    
+}
+
+
+
+body {
+
+    background: rgba(0, 0, 0, 0.6) url(../Innovation-Project-\(CA&G\)/w7.jpg);
+    background-size:100%;
+    background-blend-mode: darken;
+
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+
+}
+
+.container span {
+    color: white;
+    text-transform: uppercase;
+    ] display: block;
+
+}
+
+.text1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 6s 3;
+
+}
+
+.text2 {
+    font-size: 30px;
+    padding left: 90%;
+
+}
+
+
+.text1:hover {
+    text-decoration: none;
+
+    color:  aqua;
+
+}
+
+.text2:hover {
+    text-decoration: none;
+
+    color: aqua;
+
+}
+
+@keyframes text {
+
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+
+    30% {
+        letter-spacing: 10px;
+        margin-bottom: -40px;
+    }
+
+    85% {
+        letter-spacing: 5px;
+        margin-bottom: -40px;
+    }
+}
