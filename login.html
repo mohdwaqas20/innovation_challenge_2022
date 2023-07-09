@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login and Signup Form- DREAM-PURSURERS</title>
+    <script type = "text/javascript">
+        function reset_form()
+        {
+            document.signin.reset_form();
+        }
+    </script>
+    <link rel="stylesheet" href="../Innovation-Project-(CA&G)/style2.css">
+</head>
+
+<body onload = "reset_form();">
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="../Innovation-Project-(CA&G)/logo.jpg" alt="logo" border:3px solid white; border-radius:50px;></div>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Index.html">About</a></li>
+            <li><a href="Index.html">Team </a></li>
+            <li><a href="Index.html">Contact</a></li>
+            <li><a href="Thanks.html">Exit </a></li>
+
+        </ul>
+        <div class="rightNav" style: float: right; text-align: right;>
+            <input type="text" name="search" id="search" placeholder="Type to Search" onchange="openPage()">
+            <button class="btn btn-sm">Search</button>
+            <script>
+                function openPage() {
+                    var x = document.getElementById("search").value;
+
+                    if (x === "main") {
+                        window.open("Index.html");
+                    }
+                    if (x === "homepage") {
+                        window.open("Index.html");
+                    }
+
+                    if (x === "home") {
+                        window.open("Index.html");
+                    }
+
+                    if (x === "about") {
+                        window.open("Index.html");
+                    }
+
+                    if (x === "team") {
+                        window.open("Index.html");
+                    }
+                    if (x === "contact") {
+                        window.open("Index.html");
+                    }
+                    if (x === "query") {
+                        window.open("Index.html");
+                    }
+                    if (x === "exit page") {
+                        window.open("Thanks.html");
+                    }
+                    if (x === "exit") {
+                        window.open("Thanks.html");
+                    }
+                    if (x === "login") {
+                        window.open("Loginpage.html");
+                    }
+                    if (x === "register") {
+                        window.open("Loginpage.html");
+                    }
+                    if (x === "signup") {
+                        window.open("Loginpage.html");
+                    }
+                    
+                    if (x === "bba") {
+                        window.open("BBA-List.html");
+                    }
+                    if (x === "bba list") {
+                        window.open("BBA-List.html");
+                    }
+                    if (x === "bca") {
+                        window.open("BCA-List.html");
+                    }
+                    if (x === "bca list") {
+                        window.open("BCA-List.html");
+                    }
+                    if (x === "llb") {
+                        window.open("LLB-List.html");
+                    }
+                    if (x === "llb list") {
+                        window.open("LLB-List.html");
+                    }
+                }
+
+
+                
+
+            </script>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn">
+
+                </div>
+                <button type="button" class="toggle-btn" onclick="login()"><b>Login</b></button>
+                <button type="button" class="toggle-btn" onclick="register()"><b>Register</b></button>
+            </div>
+            <form name = "signin" action="login.php" method="post" id="login" class="input-group">
+                <input type="text" class="input-field" name="username" placeholder="Username" required>
+                <input type="password" class="input-field"  name="pass" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <a href="insturctions.html"> <button type="submit" class="submit-btn"><b>Login</b></button></a>
+            </form>
+
+            <form action="registration.php" method="post" id="register" class="input-group">
+                <input type="text" class="input-field" name="username" placeholder="Username" required>
+                <input type="email" class="input-field" name="email" placeholder="Email ID" required>
+                <input type="password" class="input-field" name="pass" placeholder="Enter Password" required>
+                <input type="password" class="input-field" name="repass" placeholder="Re-Enter Password" required>
+                <button type="submit" class="submit-btn"><b>Register</b></button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+
+        function register() {
+            x.style.left = "-800px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "-800px";
+            z.style.left = "110px";
+        }
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
