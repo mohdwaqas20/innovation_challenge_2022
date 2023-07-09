@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\waqas\Desktop\Important\BCA\Project\Innovation-Project-(CA&G)\CSS\style.css">
+    <title>CA&G</title>
+</head>
+
+<body link="black" vlink="white" alink="red">
+    
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="C:\Users\waqas\Desktop\Important\BCA\Project\Innovation-Project-(CA&G)\PIC\logo.jpg" alt="logo" border:3px solid white; border-radius:50px;></div>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#mem">Team </a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="Thanks.html">Exit </a></li>
+
+        </ul>
+        <div class="rightNav" style: float: right; text-align: right;>
+
+            <input type="text" name="search" id="search" placeholder="Type to Search" onchange="openPage()">
+            <button class="btn btn-sm">Search</button>
+            <script>
+                function openPage() {
+                    var x = document.getElementById("search").value;
+
+                    if (x === "main") {
+                        window.open("Index.html");
+                    }
+                    if (x === "homepage") {
+                        window.open("Index.html");
+                    }
+
+                    if (x === "home") {
+                        window.open("Index.html");
+                    }
+
+                    if (x === "about") {
+                        window.open("#about");
+                    }
+
+                    if (x === "team") {
+                        window.open("#mem");
+                    }
+                    if (x === "contact") {
+                        window.open("#contact");
+                    }
+                    if (x === "query") {
+                        window.open("#contact");
+                    }
+                    if (x === "exit page") {
+                        window.open("Thanks.html");
+                    }
+                    if (x === "exit") {
+                        window.open("Thanks.html");
+                    }
+                    if (x === "login") {
+                        window.open("Loginpage.html");
+                    }
+                    if (x === "register") {
+                        window.open("Loginpage.html");
+                    }
+                    if (x === "signup") {
+                        window.open("Loginpage.html");
+                    }
+                    if (x === "bba") {
+                        window.open("BBA-List.html");
+                    }
+                    if (x === "bba list") {
+                        window.open("BBA-List.html");
+                    }
+                    if (x === "bca") {
+                        window.open("BCA-List.html");
+                    }
+                    if (x === "bca list") {
+                        window.open("BCA-List.html");
+                    }
+                    if (x === "llb") {
+                        window.open("LLB-List.html");
+                    }
+                    if (x === "llb list") {
+                        window.open("LLB-List.html");
+                    }
+                }
+
+            </script>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big"><b>Career Advice & Guidance-</b></p><br>
+                <p class="text-small"><b>A Best website to find Your Dream college :)</b></p>
+            </div>
+            <div class="lrbtn" style: float: right; text-align: right;>
+
+                <button class="btn btn-sm"><b><a href="Loginpage.html">Login
+                    </b>Or <b>Register</a></b></button>
+            </div>
+
+
+    </section>
+    <p><a name="about"></a>.</p>
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-b"><b>About -</b></h1>
+            <h3 class="sectionSubTag text-s"><b><u>Motto</u>:</b> To let you know which career is best for you.
+            </h3><br>
+            <h3 class="sectionSubTag text-s"><b><u>Purpose</u>:</b> The main Purpose of our webiste is to know the
+                capabilities of the student and to tell
+                them which career they should persue or the field they will ace </h3><br>
+            
+            <h3 class="sectionSubTag text-s"><b><u>Mission</u>:</b> Our Mission is to be available to every student.
+                We target those who are confused for their carrers and is not able to choose the corrct path for them.
+            </h3><br>
+        </div>
+        <div class="thumbnail">
+            <img src="C:\Users\waqas\Desktop\Important\BCA\Project\Innovation-Project-(CA&G)\PIC\about.jpg" alt="about our website" class="imgFluid">
+        </div>
+    </section>
+
+    <p><a name="mem"></a>.</p>
+    <hr>
+    <section class="bg team">
+        <div class="members"><br><br><br><br><br><br>
+            <p class="teamTag text-tb"><b>Our Team Members- </b></p><br>
+
+            <p class="teamTag text-ts"><b>1) Khushi Tripathi
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 2) Rhythm
+                    Singh<br><br>3) Mohammad Waqas &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp4)
+                    Divyanshi Sengar<br><br>5) Deepa Sharma&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp6)
+                    Akash Patel<br><br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp7)
+                    Anubhav
+                    Pandey<br><br><br>
+            </p><br><br><br><br>
+
+
+        </div>
+
+
+    </section>
+    <hr>
+    <p><a name="contact"></a>.</p>
+    <section class="contact">
+        <h2 class="text-center">Contact Us </h2>
+        <div class="form">
+            <form action="connect1.php" method="post">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name: ">
+                <input class="form-input" type="number" name="phone" id="phone" placeholder="Enter your Phone number: ">
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter your Email: ">
+                <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                    placeholder="Write your query....."></textarea>
+                <button class="btn-dark">SUBMIT</button>
+            </form>
+        </div>
+
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+        </p>
+    </footer>
+
+</body>
+
+</html>
